@@ -1,0 +1,28 @@
+.Board {
+    height : 800px;
+    width: 800px;
+    display:grid;
+    grid-template-columns: repeat(8, 98px);
+    grid-template-rows: repeat(8,98px);
+}
+
+.b {
+    background-color: peru;
+}
+
+.w {
+    background-color: white;
+}
+
+.square {
+    display :flex;
+    height: 98px;
+    width: 98px;
+    border: solid black 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    background-color: green;
+} 
